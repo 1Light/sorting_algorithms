@@ -1,10 +1,11 @@
 #include "sort.h"
 
 /**
- * swap_nodes - Swap two nodes in a listint_t doubly-linked list.
- * @h: A pointer to the head of the doubly-linked list.
- * @n1: A pointer to the first node to swap.
- * @n2: The second node to swap.
+ * swap_nodes - Substitute the two nodes found in
+ *		the listint_t doubly-linked list.
+ * @h: A pointer that points towards the head of the doubly-linked list.
+ * @n1: A pointer that points towards the first node to substitute.
+ * @n2: The second node for substitution.
  */
 void swap_nodes(listint_t **h, listint_t **n1, listint_t *n2)
 {
@@ -22,11 +23,11 @@ void swap_nodes(listint_t **h, listint_t **n1, listint_t *n2)
 }
 
 /**
- * insertion_sort_list - Sorts a doubly linked list of integers
- *                       using the insertion sort algorithm.
- * @list: A pointer to the head of a doubly-linked list of integers.
+ * insertion_sort_list - Used in sorting the doubly linked list of integers
+ *                       utilizing the insertion sort algorithm.
+ * @list: Pointer that points towards head of a doubly-linked list of integers.
  *
- * Description: Prints the list after each swap.
+ * Description: Outputs the list after every single substitution.
  */
 void insertion_sort_list(listint_t **list)
 {
