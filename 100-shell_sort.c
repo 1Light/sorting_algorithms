@@ -1,9 +1,9 @@
 #include "sort.h"
 
 /**
- * swap_ints - Swap two integers in an array.
- * @a: The first integer to swap.
- * @b: The second integer to swap.
+ * swap_ints - Substitute the two integers in the array.
+ * @a: The first integer to be substituted.
+ * @b: The second integer to be substituted.
  */
 void swap_ints(int *a, int *b)
 {
@@ -15,12 +15,12 @@ void swap_ints(int *a, int *b)
 }
 
 /**
- * shell_sort - Sort an array of integers in ascending
- *              order using the shell sort algorithm.
- * @array: An array of integers.
- * @size: The size of the array.
+ * shell_sort - Sorting the array of integers in increasing sequence
+ *              utilizing shell sort algorithm.
+ * @array: Array of integers to be sorted.
+ * @size: Size of an array.
  *
- * Description: Uses the Knuth interval sequence.
+ * Description: Utilizes Knuth interval sequence.
  */
 void shell_sort(int *array, size_t size)
 {

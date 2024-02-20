@@ -6,9 +6,9 @@ void lomuto_sort(int *array, size_t size, int left, int right);
 void quick_sort(int *array, size_t size);
 
 /**
- * swap_ints - Swap two integers in an array.
- * @a: The first integer to swap.
- * @b: The second integer to swap.
+ * swap_ints - Substitute the two integers in the array.
+ * @a: The first integer to be substituted.
+ * @b: The second integer to be substituted.
  */
 void swap_ints(int *a, int *b)
 {
@@ -20,14 +20,14 @@ void swap_ints(int *a, int *b)
 }
 
 /**
- * lomuto_partition - Order a subset of an array of integers according to
- *                    the lomuto partition scheme (last element as pivot).
- * @array: The array of integers.
- * @size: The size of the array.
- * @left: The starting index of the subset to order.
- * @right: The ending index of the subset to order.
+ * lomuto_partition - Sequence a subdivision of the array of integers based on
+ *                    lomuto partition scheme. Last item considered as pivot.
+ * @array: Array of integers to be sorted.
+ * @size: Size of an array.
+ * @left: Initial index of the subdivision to sequence.
+ * @right: Last index of the subdivison to sequence.
  *
- * Return: The final partition index.
+ * Return: The last dividing index.
  */
 int lomuto_partition(int *array, size_t size, int left, int right)
 {
@@ -57,13 +57,13 @@ int lomuto_partition(int *array, size_t size, int left, int right)
 }
 
 /**
- * lomuto_sort - Implement the quicksort algorithm through recursion.
- * @array: An array of integers to sort.
- * @size: The size of the array.
- * @left: The starting index of the array partition to order.
- * @right: The ending index of the array partition to order.
+ * lomuto_sort - Use quicksort algorithm via recursion.
+ * @array: Array of integers to be sorted.
+ * @size: Size of an array.
+ * @left: Initial index of the subdivision to sequence.
+ * @right: Last index of the subdivison to sequence.
  *
- * Description: Uses the Lomuto partition scheme.
+ * Description: Utilize Lomuto partition scheme.
  */
 void lomuto_sort(int *array, size_t size, int left, int right)
 {
@@ -78,13 +78,13 @@ void lomuto_sort(int *array, size_t size, int left, int right)
 }
 
 /**
- * quick_sort - Sort an array of integers in ascending
- *              order using the quicksort algorithm.
- * @array: An array of integers.
- * @size: The size of the array.
+ * quick_sort - Sort the array of integers in increasing sequence
+ *              utilizing quicksort algorithm.
+ * @array: Array of integers to be sorted.
+ * @size: Size of the array.
  *
- * Description: Uses the Lomuto partition scheme. Prints
- *              the array after each swap of two elements.
+ * Description: Utilizies Lomuto partition scheme. Outputs
+ *              array after every single substitution.
  */
 void quick_sort(int *array, size_t size)
 {
